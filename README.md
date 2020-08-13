@@ -6,12 +6,11 @@
 
 In-place operators for R
 
-This is under development.
-
 ## Example
 
 ```{r}
 # devtools::install_github("privefl/inplace")
+# or install.packages("inplace")
 library(inplace)
 
 address <- data.table::address
@@ -29,6 +28,11 @@ mat2[1:5, 1:5]
 system.time(
   mat %*<-% 2
 )
+mat[1:5, 1:5]
+stopifnot(address(mat) == addr0)
+
+# Also works with a subset
+mat[1:2, 1:2] %*<-% 2
 mat[1:5, 1:5]
 stopifnot(address(mat) == addr0)
 
