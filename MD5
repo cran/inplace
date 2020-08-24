@@ -1,4 +1,4 @@
-94c3a3e781f1de8d810d560cbaf3480d *DESCRIPTION
+43f94460d0bb9c7fc2ef912954d53357 *DESCRIPTION
 0be277bd5a937d0efc385456628c9396 *NAMESPACE
 2a8156749a8a5158d9e1ebfc7a739e62 *R/RcppExports.R
 5027f4c6da8e14c845df8c6b259ce09b *R/dispatch.R
@@ -31,5 +31,5 @@ bce80ed43e399ff23d7532d61d69d761 *src/substract-one.cpp
 37d0751be1450a4ff6b45ba1938c3172 *src/utils.h
 d1b004762b6904147d0fd0fd890a68d1 *tests/spelling.R
 bdf8742d0b2a15d5d770a83535bc68d3 *tests/testthat.R
-d1e6f5073145d4e0c26e535d1f67aa0c *tests/testthat/test-operators.R
+83b7075bcf2577492e69d88e1a6e11c4 *tests/testthat/test-operators.R
 0600a57d9db34bb2f000179200f03b0f *tests/testthat/test-sweep.R

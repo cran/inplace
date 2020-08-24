@@ -1,6 +1,6 @@
 Package: inplace
-Version: 0.1.1
-Date: 2020-08-13
+Version: 0.1.2
+Date: 2020-08-24
 Title: In-place Operators for R
 Description: It provides in-place operators for R 
     that are equivalent to '+=', '-=', '*=', '/=' in C++. 
@@ -21,8 +21,8 @@ Suggests: spelling, data.table, testthat, covr
 URL: https://github.com/privefl/inplace
 BugReports: https://github.com/privefl/inplace/issues
 NeedsCompilation: yes
-Packaged: 2020-08-13 11:02:39 UTC; au639593
+Packaged: 2020-08-24 12:09:01 UTC; au639593
 Author: Florian Privé [aut, cre]
 Maintainer: Florian Privé <florian.prive.21@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-08-13 11:20:03 UTC
+Date/Publication: 2020-08-24 13:50:02 UTC
